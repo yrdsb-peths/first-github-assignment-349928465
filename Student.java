@@ -10,4 +10,9 @@ public class Student
 		grade = theGrade;
 		volunteerHours = theVolunteerHours;
 	}
+
+	public String toString()
+	{
+		return "Student with age " + age + " is in Grade " + grade + " and has " + volunteerHours + " volunteer hours";
+	}
 }
